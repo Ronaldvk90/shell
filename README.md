@@ -1,6 +1,6 @@
 # Hoe we de kutzooi bouwen
 
-## Wollah Download deze dingetje.
+## Git clone de tering in je homedir
 [Powerlevel10k] (https://github.com/romkatv/powerlevel10k.git)
 
 ## Vervolgens dit in de .zsh map sodeflikkeren
