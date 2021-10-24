@@ -9,3 +9,5 @@ git clone https://github.com/zsh-users/zsh-completions.git $HOME/.zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME/.zsh
 cp $HOME/shell/.p10k.zsh $HOME
 cp $HOME/shell/.zshrc $HOME
+
+rm -rf shell
