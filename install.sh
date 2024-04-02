@@ -1,5 +1,4 @@
 cd $HOME
-git clone https://github.com/ronaldvk90/shell
 git clone https://github.com/romkatv/powerlevel10k.git
 mkdir $HOME/.zsh
 
@@ -11,5 +10,6 @@ cd $HOME
 
 cp $HOME/shell/.p10k.zsh $HOME
 cp $HOME/shell/.zshrc $HOME
+cd ..
 
 rm -rf shell
