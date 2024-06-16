@@ -1,5 +1,5 @@
 cd $HOME
-sudo curl -s https://ohmyposh.dev/install.sh | bash -s
+curl -s https://ohmyposh.dev/install.sh | sudo bash -s
 mkdir $HOME/.zsh
 mkdir $HOME/oh-my-posh
 
