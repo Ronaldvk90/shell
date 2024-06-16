@@ -30,7 +30,16 @@
           "template": " {{ if .WSL }}\ue712 on {{ end }}{{ .Icon }}  ",
           "type": "os"
         },
+        
         {
+          "type": "session",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#c386f1",
+          "trailing_diamond": "",
+          "template": "{{ if .SSHSession }} {{ end }}{{ .UserName }}@{{ .HostName }}"
+	},
+	{
           "background": "#DA627D",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
@@ -91,7 +100,16 @@
           "template": "<#cc7eda> \u007C </><#7eb8da>\ue718</> {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }}",
           "type": "node"
         },
-        {
+
+	{
+ 	 "type": "docker",
+	  "style": "powerline",
+	  "powerline_symbol": "",
+	  "foreground": "#000000",
+	  "background": "#0B59E7",
+	  "template": "  {{ .Context }} "
+	},
+	{
           "type": "php",
           "style": "powerline",
           "foreground": "#81ff91",
