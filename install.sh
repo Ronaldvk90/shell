@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd $HOME
-curl -s https://ohmyposh.dev/install.sh | sudo bash -s
+curl -s https://ohmyposh.dev/install.sh | sudo bash -s -- -d /usr/local/bin
 oh-my-posh font install Hack
 mkdir $HOME/.zsh
 mkdir $HOME/oh-my-posh
