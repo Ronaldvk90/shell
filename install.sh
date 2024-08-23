@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 oh-my-posh font install Hack
 mkdir $HOME/.zsh
