@@ -1,6 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
-oh-my-posh font install Hack
+curl -s https://ohmyposh.dev/install.sh | bash -s
+~/.local/bin/oh-my-posh font install Hack
 mkdir $HOME/.zsh
 mkdir $HOME/.oh-my-posh
 
