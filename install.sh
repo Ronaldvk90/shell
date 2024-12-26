@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 curl -s https://ohmyposh.dev/install.sh | bash -s
 ~/.local/bin/oh-my-posh font install Hack
