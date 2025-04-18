@@ -3,8 +3,8 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlightings/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-completions/zsh-completions.plugin.zsh
 
-bindkey "^[^[[D" backward-word
-bindkey "^[^[[C" forward-word
+bindkey "^[[1;3D" backward-word
+bindkey "^[[1;3C" forward-word
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
