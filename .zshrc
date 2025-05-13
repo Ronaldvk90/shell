@@ -5,6 +5,8 @@ source ~/.zsh/zsh-completions/zsh-completions.plugin.zsh
 
 bindkey "^[[1;3D" backward-word
 bindkey "^[[1;3C" forward-word
+bindkey  "^[[H"   beginning-of-line
+bindkey  "^[[F"   end-of-line
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
